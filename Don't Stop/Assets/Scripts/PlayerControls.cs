@@ -38,7 +38,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""8b415378-db27-42a6-ac0c-1bf4924ace3b"",
+                    ""id"": ""89d3b443-d9aa-477d-a60d-32107a238b73"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
