@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
 
     float currentTime = 0f;
-    public float startingTime = 10f;
+    public float startingTime;
     [SerializeField] Text countdownText;
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class Timer : MonoBehaviour
         {
             currentTime = 0;
             Debug.Log("DONE");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         }
     }
